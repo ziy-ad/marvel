@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.diver
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.diver img
+{
+    position: absolute;
+    width: 1280px;
+    height: 613px;
+}
+
+.backgroundblack
+{
+    position: absolute;
+    background: rgba(21, 21, 21, 0.75);
+    width: 1280px;
+    height: 611px;
+    top: 0px;
+}
+
+.assy
+{
+    position: absolute;
+    top: 45px;
+    left: 875px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 61px; /* 305% */
+}
+
+header .assy ul li 
+{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header .assy ul li a 
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .assy ul li a.active
+{
+    color: #ffffff; 
+    animation: .5s ease;
+}  
+
+header .assy ul li a:hover 
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 12px
+}
+
+
+header .assy img
+{
+    position: absolute;
+    right: 890px;
+}
+
+section .about 
+{
+    position: absolute;
+    margin: 0%;
+    padding: 0px;
+}
+
+section .about h1 
+{
+    position: absolute;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 80px; /* 93.023% */
+    bottom: 290px;
+    left: 120px;
+}
+ 
+section .about p 
+{
+    position: absolute;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    bottom: 228px;
+    width: 398px;
+    left: 123px;
+}
+
+section .ver h2
+{
+    position: absolute;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 61px; /* 305% */
+    bottom: 132px;
+    left: 123px; 
+}
+
+section .ver img
+{
+    position: absolute;
+    bottom: 137px;
+    left: 336px; 
+}
